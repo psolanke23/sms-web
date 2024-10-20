@@ -1,0 +1,79 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+/sms-backend/HELP.md
+/sms-backend/target/
+/sms-backend/!.mvn/wrapper/maven-wrapper.jar
+/sms-backend/!**/src/main/**/target/
+/sms-backend/!**/src/test/**/target/
+.metadata
+
+### STS ###
+/sms-backend/.apt_generated
+/sms-backend/.classpath
+/sms-backend/.factorypath
+/sms-backend/.project
+/sms-backend/.settings
+/sms-backend/.springBeans
+/sms-backend/.sts4-cache
+/sms-backend/.gitignore
+
+
+
+### IntelliJ IDEA ###
+/sms-backend/.idea
+/sms-backend/*.iws
+/sms-backend/*.iml
+/sms-backend/*.ipr
+/sms/.gitignore
+
+### NetBeans ###
+/sms-backend/nbproject/private/
+/sms-backend/nbbuild/
+/sms-backend/dist/
+/sms-backend/nbdist/
+/sms-backend/.nb-gradle/
+/sms-backend/build/
+/sms-backend/!**/src/main/**/build/
+/sms-backend/!**/src/test/**/build/
+
+### VS Code ###
+/sms/.vscode/
+# Compiled output
+/sms/dist
+/sms/tmp
+/sms/out-tsc
+/sms/bazel-out
+
+# Node
+/sms/node_modules
+/sms/npm-debug.log
+/sms/yarn-error.log
+
+# IDEs and editors
+/sms/.idea/
+/sms/.project
+/sms/.classpath
+/sms/.c9/
+/sms/*.launch
+/sms/.settings/
+/sms/*.sublime-workspace
+
+# Visual Studio Code
+/sms/.vscode/*
+/sms/!.vscode/settings.json
+/sms/!.vscode/tasks.json
+/sms/!.vscode/launch.json
+/sms/!.vscode/extensions.json
+/sms/.history/*
+
+# Miscellaneous
+/sms/.angular/cache
+/sms/.sass-cache/
+/sms/connect.lock
+/sms/coverage
+/sms/libpeerconnection.log
+/sms/testem.log
+/sms/typings
+
+# System files
+/sms/.DS_Store
+/sms/Thumbs.db
